@@ -1,0 +1,9 @@
+.containor{
+  max-width: 1300px !important;
+  padding: 1.3rem;
+  position: relative;
+}
+
+@media (max-width: 1300px){
+  
+}
