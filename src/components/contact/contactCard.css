@@ -1,0 +1,42 @@
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(6, 6, 51);
+    border-radius: 0.6rem;
+    border: 1.5px solid purple;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    width:90%;
+}
+
+.contact-details .icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background: blue;
+    margin-bottom: 0.8rem;
+}
+
+.icon img{
+    width: 1.8rem;
+    height: auto;
+    object-fit: contain;
+}
+
+.contact-details p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    
+}
+
+@media (max-width:734px){
+    .contact-details{
+        width: 27rem;
+    }
+    
+}

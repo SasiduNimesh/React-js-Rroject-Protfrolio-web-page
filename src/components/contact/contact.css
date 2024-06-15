@@ -1,0 +1,33 @@
+.contact-contatiner{
+    margin: 4rem 0;
+    position: relative;
+    padding-top: 7rem;
+}
+
+.contact-contatiner h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.contact-content{
+    display: flex;
+    gap: 3rem;
+    padding-top: 3rem;
+}
+
+.contact-from-content{
+    display: flex;
+    column-gap: 3rem;
+}
+
+.contact-contatiner h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media(max-width:676px){
+    contact-content {
+      align-items: center;
+    }
+  }
