@@ -1,0 +1,48 @@
+/* Footer Styles */
+
+.footer {
+    background-color: #040525; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    height: 5rem;
+    width: 100vw;
+    padding: 0;
+  }
+  
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 0.8rem;
+  }
+  
+  .social-icon img {
+    width: 35px; /* Set your desired width for social icons */
+    height: 35px; /* Set your desired height for social icons */
+    margin: 0 10px; /* Adjust spacing between social icons */
+    transition: transform 0.3s ease-in-out; /* Add a subtle transition effect */
+  }
+  
+  .social-icon img:hover {
+    transform: scale(1.2); /* Enlarge the social icons on hover */
+  }
+  
+  .footer p {
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .footer {
+      text-align: center;
+    }
+  
+    .social-icon {
+      margin-top: 20px;
+    }
+  }
+  
