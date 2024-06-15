@@ -1,0 +1,83 @@
+.work-contatiner {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.work-contatiner h2{
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+.work-content{
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  cursor: pointer;
+  padding-top: 3rem;
+}
+
+.job {
+  background-color: #192a8d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+ 
+}
+
+.job h3 {
+  color: #f3ebeb;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #dddddd;
+  padding-bottom: 10px;
+}
+
+.job ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Add gradient background on hover */
+.job:hover {
+  background-image: linear-gradient(to right, #14728a, #564986);
+}
+
+/* Add hover effect on h3 */
+.job h3:hover {
+  color: #1c3279;
+}
+
+/* Add shadow on hover */
+.job:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  .work-content {
+    width: 90%; /* Adjust as needed */
+    display: grid;
+    align-items: center;
+    padding-left: 2rem;
+  }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+  .work-content {
+    width: 100%; /* Adjust as needed */
+    display: grid;
+    grid-row: auto;
+  }
+}
